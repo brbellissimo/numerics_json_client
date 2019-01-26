@@ -1,7 +1,6 @@
-A library for Dart developers.
+# Numerics JSON Client
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+Numerics JSON Client is a simple library that download and format data in the [Numerics Widget Data Specification](https://cynapse.com/docs/numerics/connect-custom-data/connect-custom-data-numerics-custom-json/) from a remote url.
 
 ## Usage
 
@@ -11,7 +10,10 @@ A simple usage example:
 import 'package:numerics_json_client/numerics_json_client.dart';
 
 main() {
-  var awesome = new Awesome();
+  
+  var numericsClient = new NumericsKPIClient();
+  var sampleKPI = await numericsClient.getNumberFromUrl("https://my-url/my-path");
+  
 }
 ```
 

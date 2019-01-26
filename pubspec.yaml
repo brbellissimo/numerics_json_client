@@ -1,14 +1,18 @@
 name: numerics_json_client
-description: A starting point for Dart libraries or applications.
-# version: 1.0.0
-# homepage: https://www.example.com
-# author: Bruno Bellissimo <email@example.com>
+version: 0.1.0
+
+description: > 
+  Numerics JSON Client is a simple library that download and format data in the Numerics Widget Data Specification from a remote url.
+author: Bruno Bellissimo <hello@brunobellissimo.me>
+
+homepage: https://github.com/brbellissimo/numerics_json_client
+issue_tracker: https://github.com/brbellissimo/numerics_json_client/issues
 
 environment:
   sdk: '>=2.1.0 <3.0.0'
 
-#dependencies:
-#  path: ^1.4.1
+dependencies:
+  http: ^0.12.0+1
 
 dev_dependencies:
   test: ^1.0.0
