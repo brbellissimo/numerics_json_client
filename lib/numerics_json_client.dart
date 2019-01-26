@@ -4,5 +4,4 @@
 library numerics_json_client;
 
 export 'src/numerics_json_client_base.dart';
-
-// TODO: Export any libraries intended for clients of this package.
+export 'src/models.dart';
